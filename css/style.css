@@ -1,6 +1,30 @@
 body {
 	padding-top: 80px;
-    background-color: #fff;
     color: black;
-	font-family: 'Roboto Condensed', sans-serif;    font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;    font-size: 12px;  
+    background-image: url("../img/cream_pixels.png");
+}
+
+.row{
+	margin: 0 auto;
+}
+
+table.dataTable th,
+    table.dataTable td {
+        white-space: nowrap;
+    }
+
+.row .dataTables_paginate { float: none; text-align: center;  }
+
+@media (max-width: 480px) { 
+
+.hideOnLow{
+	display: none;
+	}
+}
+
+div.dataTables_filter label {
+    font-weight: normal;
+    text-align: left;
+    white-space: normal;
 }
